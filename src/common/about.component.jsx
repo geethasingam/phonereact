@@ -4,16 +4,16 @@ class About extends Component {
     render(){
 
       var letterStyle = {
-        padding:30,
-        margin:30,
-        backgroundColor: "pink"
+        backgroundColor: "pink",
             };
 
       var letter = {
         color:"red"
       };
 
-        return ( <div style={letterStyle}>
+        return (
+          <div style={letterStyle} className="container">
+
           <h1 style={letter} >About oppo</h1>
 
    <h2>Enjoyed by Young People Worldwide</h2>
@@ -24,7 +24,6 @@ providing excellent selfie experiences to more and more young people around the 
 For the last 10 years, OPPO has been focusing on selfie technology breakthroughs. OPPO innovated selfie
 beautification and drove the selfie trend in the smartphone industry. In 2017, OPPO introduced A.I. to the front
 camera and is leading a brand new era of the selfie.</p>
-
 
 </div>);
     }
